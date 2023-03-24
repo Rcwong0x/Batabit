@@ -67,7 +67,7 @@
             font-family: 'DM Sans';
             font-style: normal;
             font-weight: 700;
-            font-size: var(--subtitle);
+            font-size: var(--headline);
             line-height: 18px;
         }
         .hero__title{
@@ -194,21 +194,44 @@
             background: var(--warm-black);
             padding: 4rem 1.6rem;
         }
+        .features__title {
+            font-size: var(--headline);
+            text-align: center;
+            margin-bottom: 1.8rem;
+            color: var(--just-white);
+        }
+        .features__info {
+            font-size: var(--text);
+            color: var(--text-gray);
+            text-align: center;
+            margin-bottom: 3.2rem;
+        }
         .features__list {
             display: flex;
             flex-direction: column;
-            gap: 1.2rem;
+            gap: 1.6rem;
         }
         .feature {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
             background-color: var(--warm-blackM1);
             padding: 1.6rem;
             border-radius: .4rem;
+        }
+        .feature__icon{
+            height: 24px;
+            width: 24px;
         }
         .feature__title{
             color: var(--just-white);
         }
         .feature__content{
             color: var(--text-gray);
+            font-size: var(--text);
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px;
         }
     </style>
 </head>
@@ -288,25 +311,25 @@
 
             <section class="features__list">
                 <article class="feature">
-                    <img src="icons/clock.svg" alt="Relog">
+                    <img class="feature__icon" src="icons/clock.svg" alt="Relog">
                     <h3 class="feature__title">Tiempo real</h3>
                     <p class="feature__content">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
                 </article>
     
                 <article class="feature">
-                    <img src="icons/eye.svg" alt="Ojo ilustrativo a transparencia">
+                    <img class="feature__icon" src="icons/eye.svg" alt="Ojo ilustrativo a transparencia">
                     <h3 class="feature__title">No hay tasas escondidas</h3>
                     <p class="feature__content">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
                 </article>
     
                 <article class="feature">
-                    <img src="icons/dollar-sign.svg" alt="Signo de dolar">
+                    <img class="feature__icon" src="icons/dollar-sign.svg" alt="Signo de dolar">
                     <h3 class="feature__title">Compara monedas</h3>
                     <p class="feature__content">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
                 </article>
     
                 <article class="feature">
-                    <img src="icons/check-circle.svg" alt="Signo de dolar">
+                    <img class="feature__icon" src="icons/check-circle.svg" alt="Signo de dolar">
                     <h3 class="feature__title">Información confiable</h3>
                     <p class="feature__content">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
                 </article>
