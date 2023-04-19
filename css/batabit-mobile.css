@@ -163,7 +163,7 @@ body {
     display: inline-flex;
     content: '';
 
-    background-image: url("icons/trending-down.svg");
+    background-image: url("../icons/trending-down.svg");
     background-size: 1.8rem 1.8rem;
     height: 1.8rem;
     width: 1.8rem;
@@ -173,7 +173,7 @@ body {
     display: inline-flex;
     content: '';
     
-    background-image: url("icons/trending-up.svg");
+    background-image: url("../icons/trending-up.svg");
     background-size: 1.8rem 1.8rem;
     height: 1.8rem;
     width: 1.8rem;
@@ -238,7 +238,7 @@ body {
     min-width: 32rem;
     height: 50vh;
 
-    background: url("./img/bitcoin-baby-long.jpg");
+    background: url("../img/bitcoin-baby-long.jpg");
     object-fit: cover;
     background-position: center;
     background-size: cover;
